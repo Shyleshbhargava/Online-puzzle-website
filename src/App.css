@@ -1,0 +1,47 @@
+*{
+  box-sizing: border-box;
+  margin: 0 auto;
+  list-style: none;
+}
+.App {
+  text-align: center;
+}
+
+.a{
+  height: 55px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.login form{
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin:15px;
+  background-color: rgb(245, 245, 239);
+}
+.login form input{
+  margin: 12px;
+}
+.login form Button{
+  margin: 12px;
+}
+h10{
+  margin: 10px;
+  cursor: pointer;
+}
+form {
+  box-shadow: 0 0 10px rgba(10, 11, 10, 0.2);
+}
+
+
+.puzzle-container {
+  border: 1px solid #606060;
+  width: 35rem;
+  margin: 0 auto;
+  border-radius: 1rem;
+  overflow: hidden;
+}

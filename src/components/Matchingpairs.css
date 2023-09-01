@@ -1,0 +1,86 @@
+.starti{
+    background-color: rgb(255, 184, 52); 
+}
+.startf{
+    display: none; 
+}
+.jigsawbtni{
+ display: none;
+}
+.resetx{
+    display: none;
+}
+.resetf{
+    background-color: rgb(255, 184, 52);
+}
+.reseti{
+    display: none;
+}
+.jigsawbtnf{
+    background-color: rgb(255, 184, 52);
+}
+.starti,.resetf,.jigsawbtnf{
+    margin-top: 20px;
+    width: 250px;
+    border-radius: 10px;
+    /* padding: 20px; */
+    font-size: 1.5rem;
+    font-weight: bolder; 
+}
+/* .row{
+    padding-left: 220px;
+    padding-right: 220px;
+} */
+.card{
+    position: relative;
+    height: 150px;
+    width: 150px;
+    padding: 0px;
+}
+.card img{
+    height: 150px;
+    width: 150px;
+}
+
+.card .front{
+    transform: rotateY(90deg);
+    transition: all ease-in 0.2s;
+    position: absolute;
+}
+.flipped .front{
+    transform: rotateY(0deg);
+    transition-delay: 0.2s;
+}
+
+.card .back{
+    transition: all ease-in 0.2;
+    transition-delay: 0.2s; 
+}
+
+.flipped .back{
+    transform: rotateY(90deg);
+    transition-delay: 0s;
+}
+
+.front:hover,.back:hover{
+    cursor: pointer;
+} 
+@media (max-width:320px){
+    .card, .card img{
+        height: 10px;
+        height: 10px;
+    }
+}
+@media (min-width:320px) and (max-width:600px){
+    .card, .card img{
+        height: 75px;
+        width: 75px;
+    }
+}
+
+@media (min-width:601px) and (max-width:780px){
+    .card, .card img{
+        height: 100px;
+        width: 100px;
+    }
+}
